@@ -38,10 +38,11 @@
     "lint-staged": "^15.2.11"
   },
   "lint-staged": {
-  "*.{js,jsx,ts,tsx}": [
+  "src/**/*.{js,jsx,ts,tsx}": [
     "eslint --fix",
     "prettier --write"
   ]
 }
+
 
 }

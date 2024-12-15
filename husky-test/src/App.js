@@ -4,4 +4,7 @@ function App()
   
   
   export default App;
+  const unusedVariable = 123
+console.log("Double quotes are bad");
+
   
