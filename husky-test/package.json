@@ -14,7 +14,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky",
-    "commit": "git add . && npx lint-staged && git commit -m \"Commit from script\""
+    "commit": "git add . && npx lint-staged && git commit -m \"${npm_config_message:-Default commit message}\""
+
   },
   "eslintConfig": {
     "extends": [
