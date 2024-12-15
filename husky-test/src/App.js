@@ -3,7 +3,7 @@ function App()
   return <div>App</div>;
   const unusedVariable = 123
 console.log("Double quotes are bad");
-  {}
+
   export default App;
   
   
