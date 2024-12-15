@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./App.css";
 
 const App = () => {
-  const [inputText, setInputText] = useState("");
+  const [inputText, setInputText] = useState(""),
   const [outputText, setOutputText] = useState("");
 
   // Función para codificar el texto
